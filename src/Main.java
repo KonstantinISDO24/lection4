@@ -31,8 +31,10 @@ public class Main {
           return (b.startsWith("j") || b.startsWith("n")) && b.endsWith("a");
         };
 
+        System.out.println(check.test("Xardas"));
         System.out.println(check.test("Jonathan"));
         System.out.println(check.test("Dio"));
+        System.out.println(check.test("Nirvana"));
         System.out.println(check.test("Joulina"));
 
         System.out.println("\nЗадание 2");

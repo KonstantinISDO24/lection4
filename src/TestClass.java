@@ -1,4 +1,4 @@
-@DeprecatedEx(message = "Используй класс NewClass вместо этого")
+@DeprecatedEx(message = "Новейший класс ModernClass")
 public class TestClass {
     public void modernMethod() {
     }
